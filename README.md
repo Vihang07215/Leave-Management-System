@@ -49,7 +49,7 @@ This project follows a full-stack architecture where:
 *(Customize this based on your project)*
 
 * **Frontend:** React.js / HTML / CSS / JavaScript
-* **Backend:** Node.js / Express.js *(or your backend tech)*
+* **Backend:** Node.js / Express.js
 * **Database:** MongoDB / MySQL
 * **Authentication:** JWT / Session-based
 * **Version Control:** Git & GitHub
