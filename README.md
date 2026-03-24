@@ -1,96 +1,76 @@
-🏢 Leave Management System
+## 📌 Leave Management System (Full Stack)
 
-A role-based Leave Management System built using Node.js and NestJS that helps organizations manage employees, departments, and leave approval workflows efficiently.
+A **full-stack Leave Management System** designed to streamline and automate the process of managing employee leave requests, approvals, and records within an organization.
 
-The system supports secure authentication, role-wise authorization, and multi-level leave approval (department and admin level).
+This application provides an efficient and user-friendly platform for both employees and administrators to handle leave-related operations, reducing manual effort and improving transparency.
 
-📌 Features
-🔐 Authentication & Authorization
+---
 
-User signup and login
+## 🚀 Features
 
-JWT-based authentication
+### 👤 Employee Side
 
-Role-based authorization
+* Apply for leave (casual, sick, etc.)
+* View leave balance and history
+* Track leave request status (pending/approved/rejected)
+* Receive notifications on leave updates
 
-Permission-based route protection
+### 🛠️ Admin / Manager Side
 
-👥 Employee Management
+* Approve or reject leave requests
+* Manage employee data
+* Configure leave types and policies
+* View reports and leave analytics
 
-Create, update, and delete employees
+### ⚙️ System Features
 
-Assign employees to departments
+* Secure authentication & authorization
+* Role-based access control (Admin / Employee)
+* Real-time leave tracking
+* Dashboard for insights and monitoring
+* Fully responsive UI
 
-Manage employee roles
+---
 
-View employee details
+## 🧠 Project Overview
 
-🏢 Department Management
+A Leave Management System is a software solution that helps organizations **automate leave requests, approvals, and tracking**, improving efficiency and reducing administrative workload ([SourceForge][1]).
 
-Create and manage departments
+This project follows a full-stack architecture where:
 
-Assign department managers
+* **Frontend** handles user interaction and UI
+* **Backend** manages business logic and APIs
+* **Database** stores employee and leave records
 
-Department-wise employee mapping
+---
 
-📝 Leave Management
+## 🏗️ Tech Stack
 
-Employees can apply for leave
+*(Customize this based on your project)*
 
-Leave request tracking
+* **Frontend:** React.js / HTML / CSS / JavaScript
+* **Backend:** Node.js / Express.js *(or your backend tech)*
+* **Database:** MongoDB / MySQL
+* **Authentication:** JWT / Session-based
+* **Version Control:** Git & GitHub
 
-Leave status management:
+---
 
-Pending
+## 📂 Modules
 
-Approved
+* Authentication Module
+* Employee Management
+* Leave Request System
+* Approval Workflow
+* Reporting & Dashboard
 
-Rejected
+---
 
-✅ Leave Approval Workflow
+## 🎯 Objectives
 
-Department-level approval
+* Automate leave management process
+* Improve accuracy and reduce paperwork
+* Provide transparency between employees and management
+* Enable easy tracking and reporting
 
-Admin-level approval
-
-
-🛡️ Security
-
-Password encryption using bcrypt
-
-JWT token validation
-
-Protected APIs
-
-Role and permission guards
-
-🧩 System Roles
-👨‍💼 Admin
-
-Manage departments
-
-Create employees
-
-Approve or reject all leave requests
-
-View system-wide data
-
-👨‍💻 Department Manager
-
-Manage department employees
-
-Approve department leave requests
-
-View department-wise leave records
-
-👤 Employee
-
-Apply for leave
-
-View leave history
-
-Track approval status
-
-Department-wise leave handling
-
-Approval history tracking
+---
